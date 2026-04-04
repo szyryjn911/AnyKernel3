@@ -53,6 +53,7 @@ ui_print "##   Device   :  Realme C3 / Narzo 10A      ##";
 ui_print "##   Codename :  RMX2020 / RMX2027          ##";
 ui_print "##   Author   :  SZYRYJN                    ##";
 ui_print "##   Build    :  2000-01-01                 ##";
+ui_print "##   Feature  :  RESUKI-SU IMPLIMENTED      ##";
 ui_print "##                                          ##";
 ui_print "##############################################";
 ui_print " ";
