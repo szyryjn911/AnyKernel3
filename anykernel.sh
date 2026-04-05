@@ -1,19 +1,19 @@
 ### AnyKernel3 Ramdisk Mod Script
 ## osm0sis @ xda-developers
-## Modified for SATORI Kernel
+## Modified for Zen-X Kernel
 
 ### AnyKernel setup
 properties() { '
-kernel.string=SATORI KERNEL BY SZYRYJN
+kernel.string=Zen-X KERNEL BY SZYRYJN
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=RMX2020
-device.name2=RMX2027
-device.name3=rmx2020
-device.name4=rmx2027
+device.name1=violet
+device.name2=VIOLET
+device.name3=
+device.name4=
 device.name5=
 device.name6=
 device.name7=
@@ -42,15 +42,15 @@ PATCH_VBMETA_FLAG=auto;
 
 ui_print " ";
 ui_print "==============================";
-ui_print "        S A T O R I           ";
-ui_print "        K E R N E L           ";
+ui_print "             Z E N            ";
+ui_print "               X              ";
 ui_print "==============================";
 ui_print " ";
 ui_print "##############################################";
 ui_print "##                                          ##";
-ui_print "##   Kernel   :  SATORI Kernel              ##";
-ui_print "##   Device   :  Realme C3 / Narzo 10A      ##";
-ui_print "##   Codename :  RMX2020 / RMX2027          ##";
+ui_print "##   Kernel   :  Zen-X Kernel               ##";
+ui_print "##   Device   :  Redmi Note 7 Pro           ##";
+ui_print "##   Codename :  Violet                     ##";
 ui_print "##   Author   :  SZYRYJN                    ##";
 ui_print "##   Build    :  2000-01-01                 ##";
 ui_print "##   Feature  :  RESUKI-SU IMPLIMENTED      ##";
@@ -63,7 +63,7 @@ ui_print " ";
 # boot install
 dump_boot;
 
-ui_print "- Flashing SATORI Kernel...";
+ui_print "- Flashing Zen-X Kernel...";
 ui_print " ";
 
 write_boot;
@@ -71,7 +71,7 @@ write_boot;
 ui_print " ";
 ui_print "##############################################";
 ui_print "##                                          ##";
-ui_print "##   Flash Successful! Enjoy SATORI!        ##";
+ui_print "##   Flash Successful! Enjoy Zen-X!         ##";
 ui_print "##   Please reboot to apply changes.        ##";
 ui_print "##                                          ##";
 ui_print "##############################################";
